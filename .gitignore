@@ -1,0 +1,25 @@
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large sample PDF reports
+Sample report/*.pdf
+
+
+.ipynb_checkpoints/
+*.sqlite
+*.db
+
+.ipynb_checkpoints/
